@@ -1,37 +1,31 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>AMP</Name>
+  <Name>[Unofficial] AMP Dockerized</Name>
   <Repository>mitchtalmadge/amp-dockerized</Repository>
   <Registry>https://hub.docker.com/r/mitchtalmadge/amp-dockerized/</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/98290-support-amp-application-management-panel-corneliousjd-repo/</Support>
   <Project>https://github.com/MitchTalmadge/AMP-dockerized</Project>
-  <Overview>CubeCoders AMP. Manage servers like Minecraft (McMyAdmin3, replaces McMyAdmin2), TF2, and more. PLEASE READ SUPPORT THREAD ABOUT MAC ADDRESSES! More info on usage in support thread.</Overview>
+  <Overview>[Unofficial] CubeCoders AMP in a Docker Image! Manage servers like Minecraft, Valheim, TF2, and more. Requires paid license from CubeCoders.com</Overview>
   <Category>GameServers:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/amp.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/icons/amp.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/MitchTalmadge/Unraid-Templates/master/amp-dockerized.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/MitchTalmadge/Unraid-Templates/master/icons/amp-dockerized.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1603744310</DateInstalled>
   <DonateText>Donate</DonateText>
-  <DonateLink>http://paypal.me/corneliousjd</DonateLink>
-  <Description>CubeCoders AMP. Manage servers like Minecraft (McMyAdmin3, replaces McMyAdmin2), TF2, and more. PLEASE READ SUPPORT THREAD ABOUT MAC ADDRESSES! More info on usage in support thread.</Description>
+  <DonateLink>http://paypal.me/mitchtalmadge</DonateLink>
+  <Description>[Unofficial] CubeCoders AMP in a Docker Image! Manage servers like Minecraft, Valheim, TF2, and more. Requires paid license from CubeCoders.com/Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>8080</HostPort>
         <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>25565</HostPort>
-        <ContainerPort>25565</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -85,3 +79,4 @@
   <Config Name="Timezone" Target="TZ" Default="America/Detroit" Mode="" Description="Container Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Detroit</Config>
   <Config Name="Nightly Builds" Target="NIGHTLY" Default="" Mode="" Description="Set to ANY value here to enable nightly builds. Unset this variable to go back to stable releases." Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
+
