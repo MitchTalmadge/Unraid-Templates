@@ -17,7 +17,7 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1603744310</DateInstalled>
-  <DonateText>Donate</DonateText>
+  <DonateText>100% of all donations will be sent to local food banks. Thank you!</DonateText>
   <DonateLink>http://paypal.me/mitchtalmadge</DonateLink>
   <Description>[Unofficial] CubeCoders AMP in a Docker Image! Manage servers like Minecraft, Valheim, TF2, and more. Requires paid license from CubeCoders.com/Description>
   <Networking>
@@ -79,4 +79,5 @@
   <Config Name="Timezone" Target="TZ" Default="America/Detroit" Mode="" Description="Container Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Detroit</Config>
   <Config Name="Nightly Builds" Target="NIGHTLY" Default="" Mode="" Description="Set to ANY value here to enable nightly builds. Unset this variable to go back to stable releases." Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
+
 
