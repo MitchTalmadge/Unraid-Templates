@@ -18,7 +18,7 @@
   <CPUset/>
   <DonateText>100% of all donations will be given to local food banks and animal shelters.</DonateText>
   <DonateLink>http://paypal.me/mitchtalmadge</DonateLink>
-  <Description>[Unofficial] CubeCoders AMP in a Docker Image! Manage servers like Minecraft, Valheim, TF2, and more. Requires paid license from CubeCoders.com/Description>
+  <Description>[Unofficial] CubeCoders AMP in a Docker Image! Manage servers like Minecraft, Valheim, TF2, and more. Requires paid license from CubeCoders.com</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -60,6 +60,7 @@
   <Config Name="Appdata" Target="/home/amp/" Default="" Mode="rw" Description="Container Path: /home/amp/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/amp</Config>
   <Config Name="Timezone" Target="TZ" Default="America/Detroit" Mode="" Description="Container Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Detroit</Config>
 </Container>
+
 
 
 
